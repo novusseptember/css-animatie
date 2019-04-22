@@ -1,0 +1,41 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+body>div {
+    background-color: green;
+    width: 400px;
+    height: 400px;
+}
+
+body>div>div {
+    background-color: #555;
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+
+body>div>div>div {
+    background-color: rgb(83, 68, 68);
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+ body>div>div:first-child>div:first-child {
+     background-color: red;
+ }
+
+ body>div>div:last-child>div:last-child {
+     background-color: red;
+ }
+
+ body>div>div:first-child>div:last-child {
+     background-color: red;
+ }
+
+ body>div>:last-child>div:first-child {
+     background-color: red;
+ }

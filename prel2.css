@@ -1,0 +1,45 @@
+body{
+    background-color: #444444;
+   
+}
+.small{
+    width: 94px;
+    height: 94px;
+    border: 3px solid  #661616;
+    border-left-color: #444444;
+    animation: rot2 3s infinite;
+}
+.mediu{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3d0000;
+    border-bottom-color: #444444;
+    padding: 10px;
+    animation: rot 0.5s infinite;
+
+}
+.big{
+    width: 126px;
+    height: 126px;
+    border: 3px solid #240000;
+    border-top-color: #444444;
+    padding:10px;
+    margin: 200px auto;
+    animation: rot 1s infinite;
+
+}
+.round{
+    border-radius: 100%;
+
+}
+@keyframes rot{
+    from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
+}
+@keyframes rot2 {
+    from {
+        transform: rotate(0deg);}
+
+    to {
+        transform: rotate(-720deg);}
+}
